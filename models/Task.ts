@@ -1,4 +1,4 @@
-import { readJSON, writeJSON, TASKS_FILE } from './db';
+import { readJSON, writeJSON, TASKS_FILE } from './db.js';
 
 export interface ITask {
   _id: string;
