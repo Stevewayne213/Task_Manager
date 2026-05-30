@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { User } from '../models/User';
+import { User } from '../models/User.js';
 
 const router = Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback-taskboard-secret-key-12345';
