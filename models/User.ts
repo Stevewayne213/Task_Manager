@@ -1,4 +1,4 @@
-import { readJSON, writeJSON, USERS_FILE } from './db';
+import { readJSON, writeJSON, USERS_FILE } from './db.js';
 
 export interface IUser {
   _id: string;
