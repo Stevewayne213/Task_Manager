@@ -1,0 +1,6 @@
+{
+  "name": "Task Manager",
+  "description": "An elegant, responsive Kanban Task Manager Board with secure JWT authentication and smooth drag/glide card transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
